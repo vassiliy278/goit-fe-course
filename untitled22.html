@@ -1,15 +1,47 @@
-<ul>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-</ul>
 
-<p>Lorem ipsum dolor sit amet.</p>
-<p>Mollitia odit ipsa, consectetur aliquam?</p>
-<p>Ut consectetur provident, quis minus?</p>
-<p>Ipsam, temporibus similique earum id.</p>
-<p>Nesciunt amet, sapiente pariatur earum.</p> asdasdasd
+<style>
+section {
+	text-align: center;
+	font-family: arial;
+}
+	#page {
+		display: grid;
+		grid-template-areas: "header header"
+							 "nav main"
+							 "nav footer"
+	}
+header { grid-area: header;
+	background: grey;
+	padding: 3%;
+	text-align: center;
+	border-radius:10px;
+	margin: 5px;
+		}
+footer { grid-area: footer;
+	background: black;
+	color: white;
+	padding: 6%;
+	border-radius:10px;
+	margin: 5px;
+		}
+main { grid-area: main;
+		background: green;
+		padding: 6%;
+		border-radius:10px;
+		margin: 5px;
+		}
+nav { grid-area: nav;
+	padding: 12%:;
+	background: yellow;
+	width: 100%;
+	border-radius:10px;
+	margin: 5px;
+	}
+</style>
 
-<p class="rep"></p>
+<section id="page">
+	<header>Header</header>
+	<nav>Navigation</nav>
+	<main>Main info</main>
+	<footer>Footer</footer>
+</section>
