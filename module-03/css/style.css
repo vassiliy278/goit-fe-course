@@ -1,6 +1,63 @@
-.header_h1 {
-	color: salmon;
-	background-color: khaki;
-	font-family: arial;
-	font-size: 3rem;
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+.wrapper {
+	width: 900px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+.menu {
+	text-align: center;
+}
+.menu__item {
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0px 40px;
+	padding-top: 80px;
+}
+.menu__link {
+	font-size: 1.167rem;
+	text-decoration: none;
+	color: #626262;
+}
+.menu__link:hover {
+	color: #03a9f4;
+	transition: 0.7s;
+}
+.content {
+	padding-top: 120px;
+	display: flex;
+	}
+.post1 {
+	width: 420px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-left: 0;
+}
+.post2 {
+	width: 420px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-right: 0;
+}
+h2 {
+	font-size: 1.9rem;
+}
+h3 {
+	color: #b4ad9e;
+	font-size: 1.167rem;
+	margin: 30px 0;
+}
+p {	font-size: 1rem;
+	margin: 30px 0;
+	line-height: 1.5rem;
+}
+button {
+	display: flex;
+	margin: auto;
+	font-family: playfair display;
+	font-size: 1.25rem;
+	margin-top: 20px;
+	padding: 15px 35px;
 }

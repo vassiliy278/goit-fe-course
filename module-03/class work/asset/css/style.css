@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial;
+}
+
+.header {
+	background-color: whitesmoke;
+	padding: 10px 0;
+
+}
+
+.content {
+	max-width: 760px;
+	margin: 0 auto;
+	
+}
+
+.title {
+	padding: 20px;
+	font-size: 3rem;
+
+
+}
+
+.navigation {
+
+
+}
+
+.menu {
+	text-align: right;
+
+}
+
+.menu__item {
+	margin-right: 20px;
+	display: inline-block;
+
+}
+
+.menu__item:last-child {
+	margin: 0;
+}
+
+.menu__link {
+	color: white;
+	background-color: salmon;
+	border-radius: 5px;
+	padding: 5px 15px;
+	text-decoration: none;
+
+}
+
+.menu__link:hover {
+	background-color: darkseagreen;
+}
+
+.information-block {
+	text-align: center;
+	background-color: grey;
+}
+
+.logo {
+	padding: 20px 0;
+	max-width: 400px;
+
+}
+
+.sub-title {
+
+}
+
+.number {
+	text-decoration: line-through;
+}
+
+.text {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: grey;
+}
+
+.parallax {
+	background-image: url(../img/palm_night.jpeg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
