@@ -1,0 +1,81 @@
+body {
+background-color: lightsteelblue;
+}
+.header {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 15px 20px;
+	background: linear-gradient(to right, wheat, white);
+
+}
+.logo {
+	float: left;
+	width: 50px;
+}
+.navigation {
+	margin-left: 20px;
+	float: left;
+}
+.menu, .social_info {
+	margin: 0;
+
+}
+.menu_item {
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+	marg
+}
+.menu_item:last-child {
+	margin-right: 0;
+}
+.menu_item:hover {
+	color: white;
+}
+.social_info {
+	float: left;
+
+}
+.social_info_item {
+	float: left;
+	width: 25px;
+	height: 25px;
+	background-color: #tomato;
+	margin-right: 15px;
+}
+.social_info_item:last-child {
+	margin-right: 0;
+}
+.social_info_item:nth-child(odd) {
+	color: lime;
+}
+.social_info_icon {
+
+
+}
+.user_info {
+	float: right;
+
+}
+.user_info_avatar {
+	width: 40px;
+	object-fit: cover;
+	vertical-align: middle;
+
+}
+.user_info_name {
+	margin-left: 10px;
+	vertical-align: middle;
+
+
+}
+.sub_info {
+	float: right;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+
+}
