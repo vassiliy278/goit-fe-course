@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Name Page</title>
+		<link rel="stylesheet" href="reset.css"/>
+		<style>
+			h1 {
+				/*position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);*/
+				font-size: 40px;
+			}
+			.wrapper {
+				margin: auto;
+				display: flex;
+				align-items: center;
+				align-content: center;
+				width: 80%;
+				height: 100vh;
+				background-color: palegreen;
+			}
+			.block {
+				margin: auto;
+				width: 90%;
+				height: 50vh;
+				background-color: lightyellow;
+				position: relative;
+				box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+			}
+			.block:hover {
+				box-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+			}
+			.text {
+				width: 80%;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+
+				transform: translate(-50%, -50%);
+
+			}	
+			.footer {
+			
+				
+			}
+			.header {
+				text-align: center;
+			}
+			.header::after {
+				margin: 1% auto;
+				display: block;
+				content: "";
+				width: 40%;
+				height: .3vh;
+				background-color: black;
+			}
+
+			p {
+				text-align: justify;
+				text-indent: 10px;
+				font-size: 12px;
+			}
+			p:first-letter {
+				font-size: 14px;
+				font-weight: bold;
+				font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="wrapper">
+		<div class="block">
+			<div class="text">
+				<div class="header"><h1>Hello World</h1></div>
+				<div class="footer"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel et, fuga iste repellendus laboriosam, vero.</p></div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>	
