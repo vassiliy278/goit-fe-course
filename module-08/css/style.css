@@ -156,13 +156,14 @@ p {
     height: 70vh;
   }
   .logotype {
-    margin-bottom: 150px;
+    margin-bottom: 75px;
     text-align: left;
   }
   .menu {
     flex-direction: row;
     justify-content: space-between;
     width: 30%;
+      margin-bottom: 75px;
   }
   .menu_item {
     width: 100%;
@@ -182,6 +183,16 @@ p {
     margin: auto;
     flex-wrap: wrap;
   }
+ 
+  .card2 {
+    order: 3;
+  }
+  .card3 {
+    order: 2;
+  }
+  .card4 {
+    order: 4;
+  }
   .card {
     width: 50%;
   }
@@ -198,10 +209,10 @@ p {
   }
   .logotype {
     text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .menu {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     flex-direction: row;
     justify-content: space-between;
     width: 25%;
