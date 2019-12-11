@@ -261,6 +261,7 @@ span {
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
+
 .hero_card {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -291,12 +292,20 @@ span {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
 	.dix {
+
 		background: url('../img/dix@2x.jpg') no-repeat;
 		background-size: cover;
 	}
 }
+.linear_gradient {
+	background: linear-gradient(rgba(243,129,129,1), rgba(252,227,138,1));
+}
+.dix:hover, .campbell:hover, .ferting:hover {
+	opacity: .5;
+}
 .campbell {
 	background: url('../img/campbell.jpg') no-repeat;
+
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
 	.dix {
